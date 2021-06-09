@@ -496,7 +496,7 @@ def answer(call):
     
     if arr[0] == "💎 Амф 💎 1(г)":
         key = types.InlineKeyboardMarkup()
-        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay1_{}".format(arr[1])))
+        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay_{}".format(arr[1])))
         key.row(types.InlineKeyboardButton("❌Закрыть", callback_data="delete"))
         сolvo = random.randint(5,15)
         bot.send_message(call.message.chat.id, f"❕ Вы выбрали: {arr[0]} | {arr[1]}грн\n\n"\
@@ -505,7 +505,7 @@ def answer(call):
    
     if arr[0] == "☮️ Шишки белая вдова ☮️ 1(г)":
         key = types.InlineKeyboardMarkup()
-        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay1_{}".format(arr[1])))
+        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay_{}".format(arr[1])))
         key.row(types.InlineKeyboardButton("❌Закрыть", callback_data="delete"))
         сolvo = random.randint(5,15)
 
@@ -515,7 +515,7 @@ def answer(call):
     
     if arr[0] == "☮️ Шишки белая вдова ☮️ 2(г)":
         key = types.InlineKeyboardMarkup()
-        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay1_{}".format(arr[1])))
+        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay_{}".format(arr[1])))
         key.row(types.InlineKeyboardButton("❌Закрыть", callback_data="delete"))
         сolvo = random.randint(5,15)
 
@@ -525,7 +525,7 @@ def answer(call):
     
     if arr[0] == "☮️ Шишки чёрная вдова ☮️ 2(г)":
         key = types.InlineKeyboardMarkup()
-        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay1_{}".format(arr[1])))
+        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay_{}".format(arr[1])))
         key.row(types.InlineKeyboardButton("❌Закрыть", callback_data="delete"))
         сolvo = random.randint(5,15)
 
@@ -535,7 +535,7 @@ def answer(call):
     
     if arr[0] == "⚡️ Альфа соль чёрная ⚡️ (1гр)":
         key = types.InlineKeyboardMarkup()
-        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay1_{}".format(arr[1])))
+        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay_{}".format(arr[1])))
         key.row(types.InlineKeyboardButton("❌Закрыть", callback_data="delete"))
         сolvo = random.randint(5,15)
 
@@ -545,7 +545,7 @@ def answer(call):
     
     if arr[0] == "🍯 Метадон 🍯 (1гр)":
         key = types.InlineKeyboardMarkup()
-        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay1_{}".format(arr[1])))
+        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay_{}".format(arr[1])))
         key.row(types.InlineKeyboardButton("❌Закрыть", callback_data="delete"))
         сolvo = random.randint(5,15)
 
@@ -555,7 +555,7 @@ def answer(call):
     
     if arr[0] == "☮️ Гаш ☮️ (1гр)":
         key = types.InlineKeyboardMarkup()
-        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay1_{}".format(arr[1])))
+        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay_{}".format(arr[1])))
         key.row(types.InlineKeyboardButton("❌Закрыть", callback_data="delete"))
         сolvo = random.randint(5,15)
 
@@ -568,7 +568,7 @@ def answer(call):
     
     if arr[0] == "⚡️ Альфа соль белая ⚡️ (1гр)":
         key = types.InlineKeyboardMarkup()
-        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay1_{}".format(arr[1])))
+        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay_{}".format(arr[1])))
         key.row(types.InlineKeyboardButton("❌Закрыть", callback_data="delete"))
         сolvo = random.randint(5,15)
 
@@ -579,7 +579,7 @@ def answer(call):
     
     if arr[0] == "🍚 Меф кристаллы 🍚 (1гр)":
         key = types.InlineKeyboardMarkup()
-        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay1_{}".format(arr[1])))
+        key.row(types.InlineKeyboardButton("💰Оплатить", callback_data="pay_{}".format(arr[1])))
         key.row(types.InlineKeyboardButton("❌Закрыть", callback_data="delete"))
         сolvo = random.randint(5,15)
 
